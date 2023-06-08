@@ -3,6 +3,7 @@ import cors from "cors";
 import mongoose from "mongoose";
 import express from "express";
 import pgRoute from "../server/routes/pg.js";
+import nodemailer from "nodemailer";
 
 
 const app= express();
