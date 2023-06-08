@@ -4,11 +4,12 @@ import mongoose from "mongoose";
 import express from "express";
 import pgRoute from "../server/routes/pg.js";
 import nodemailer from "nodemailer";
+import dotenv from "dotenv";
 
 
 const app= express();
 
-
+dotenv.config();
 
 
 app.use(bodyParser.json({limit:"30mb" ,extended: "true"}));
