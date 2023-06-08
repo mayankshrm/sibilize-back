@@ -2,7 +2,7 @@ import bodyParser from "body-parser";
 import cors from "cors";
 import mongoose from "mongoose";
 import express from "express";
-import pgRoute from "../server/routes/pg.js";
+import pgRoute from "../routes/pg.js";
 import nodemailer from "nodemailer";
 import dotenv from "dotenv";
 
